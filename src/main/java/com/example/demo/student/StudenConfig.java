@@ -16,15 +16,13 @@ public class StudenConfig {
             Student martin=new Student(
                     "martin",
                     "martin@gmail.com",
-                    LocalDate.of(2023,5,2),
-                    23
+                    LocalDate.of(2023,5,2)
             );
             Student leon=new Student(
 
                     "leon",
                     "leon@gmail.com",
-                    LocalDate.of(2023,5,2),
-                    23
+                    LocalDate.of(2000,5,2)
             );
             respostory.saveAll(
                     List.of(martin,leon)

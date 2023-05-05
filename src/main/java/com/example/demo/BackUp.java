@@ -24,8 +24,7 @@ public class BackUp {
                 1L,
                 "martin",
                 "leon@gmail.com",
-                LocalDate.of(2023,5,2),
-                23
+                LocalDate.of(2023,5,2)
         ));
 
     }
