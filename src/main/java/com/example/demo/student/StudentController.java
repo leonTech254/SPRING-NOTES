@@ -29,5 +29,11 @@ public class StudentController {
 
 
     }
+    @DeleteMapping("/deletestudent/{studentId}")
+    public void deleteStudent(@PathVariable("studentId") Long id) throws IllegalAccessException {
+        studentService.deleteStudent(id);
+
+
+    }
 
 }

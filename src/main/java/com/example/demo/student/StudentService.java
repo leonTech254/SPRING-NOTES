@@ -37,4 +37,16 @@ public class StudentService {
     return  List.of(student);
 
     }
+
+
+    public void deleteStudent(Long studentId) throws IllegalAccessException {
+        boolean exist=studentsRespostory.existsById(studentId);
+        if(!exist)
+        {
+            throw  new IllegalAccessException("Student with does nt exist");
+        }else
+        {
+            studentsRespostory.deleteById(studentId);
+        }
+    }
 }
