@@ -10,7 +10,9 @@ Steps to build an API layer
 <li>  Define your API methods-Within your controller class, define methods that will handle each API endpoint. Use annotations such as <b>@GetMapping, @PostMapping, @PutMapping, or @DeleteMapping</b> to map your methods to specific HTTP methods and URL paths.</li>
 <li>Define request and response objects-Create Java classes to represent the request and response objects that your API will use. These classes should include any necessary fields, getters, and setters.</li>
 </ul>
-### Example 
+
+### Example
+
 <pre>
 <code>
 @RestController
