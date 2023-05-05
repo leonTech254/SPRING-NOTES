@@ -21,9 +21,6 @@ public class StudentController {
     public List<Student> getStudent()
     {
         return  studentService.getStudents();
-
-
-
     }
 
 }
